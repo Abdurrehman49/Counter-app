@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .counter-container {
+    text-align: center;
+    background-color: rgb(228, 241, 44);
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .counter {
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  button:active{
+    background-color: rgb(19, 108, 242);
+  }
+  
+  #count {
+    font-size: 24px;
+    margin: 0 20px;
+  }
+  
